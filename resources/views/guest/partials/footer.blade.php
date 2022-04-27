@@ -63,4 +63,18 @@
             <div class="footer-logo"><img src="./images/dc-logo-bg.png" alt=""></div>
         </div>
     </div>
+
+    <div class="content-social">
+        <div class="container-social container">
+            <div class="button-social">SING-UP NOW!</div>
+            <div class="social">
+                <span>follow us</span>
+                <img src="./images/footer-facebook.png" alt="facebook">
+                <img src="./images/footer-periscope.png" alt="periscope">
+                <img src="./images/footer-pinterest.png" alt="pintarest">
+                <img src="./images/footer-twitter.png" alt="twitter">
+                <img src="./images/footer-youtube.png" alt="youtube">
+            </div>
+        </div>
+    </div>
 </footer>

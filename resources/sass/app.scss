@@ -185,3 +185,41 @@ h3 {
     padding: 1rem 0;
     overflow: hidden;
 }
+
+
+.social {
+    display: flex;
+    align-items: center;
+    span {
+        text-transform: uppercase;
+font-weight: bold;
+color: white;
+margin-right: 1rem;
+    }
+    img {
+        margin: 0 .3rem;
+        &:hover {
+            filter: invert(37%) sepia(51%) saturate(4075%) hue-rotate(194deg) brightness(99%) contrast(110%);
+        }
+    }
+}
+
+.container-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.content-social {
+    background-color: #303030;
+    height: 7.65rem;
+}
+.button-social {
+    padding: .5rem;
+    border: 2px solid #0282F9;
+    color: #fff;
+    &:hover {
+        border: 2px solid transparent;
+        background-color: #0282F9;
+    }
+}

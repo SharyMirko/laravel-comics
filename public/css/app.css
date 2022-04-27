@@ -192,3 +192,46 @@ h3 {
   overflow: hidden;
 }
 
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin-right: 1rem;
+}
+
+.social img {
+  margin: 0 0.3rem;
+}
+
+.social img:hover {
+  filter: invert(37%) sepia(51%) saturate(4075%) hue-rotate(194deg) brightness(99%) contrast(110%);
+}
+
+.container-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.content-social {
+  background-color: #303030;
+  height: 7.65rem;
+}
+
+.button-social {
+  padding: 0.5rem;
+  border: 2px solid #0282F9;
+  color: #fff;
+}
+
+.button-social:hover {
+  border: 2px solid transparent;
+  background-color: #0282F9;
+}
+
