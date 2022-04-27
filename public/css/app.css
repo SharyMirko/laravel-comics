@@ -45,3 +45,73 @@ li.active {
   width: 4rem;
 }
 
+.thumbler {
+  display: inline-block;
+  width: 150px;
+  color: white;
+  margin: 0.5rem;
+  text-align: left;
+}
+
+.thumbler img {
+  width: 150px;
+  height: 150px;
+}
+
+.thumbler span {
+  display: block;
+}
+
+.content {
+  height: 20rem;
+  background-image: url("http://localhost:8080/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content p {
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+.thumb-contain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #0282F9;
+  border: 2px solid transparent;
+  color: #fff;
+  width: 155px;
+  position: relative;
+  left: 50%;
+  transform: translate(-52%);
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #0282F9;
+}
+
+.fullwidth {
+  background-color: #1C1C1C;
+  padding: 2rem;
+}
+
+.actual-series {
+  color: #fff;
+  padding: 0.8rem;
+  background-color: #0282F9;
+  width: 10rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: -3.5rem;
+}
+
